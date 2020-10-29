@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-10-29T10:01:03 CET" name="Command line suite" finished-at="2020-10-29T10:01:24 CET" duration-ms="21049">
+    <groups>
+    </groups>
+    <test started-at="2020-10-29T10:01:03 CET" name="Command line test" finished-at="2020-10-29T10:01:24 CET" duration-ms="21049">
+      <class name="ApiTestDELETE">
+        <test-method signature="checkIfUserIsDeleted()[pri:0, instance:ApiTestDELETE@7a3d45bd]" started-at="2020-10-29T10:01:23 CET" name="checkIfUserIsDeleted" finished-at="2020-10-29T10:01:23 CET" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkIfUserIsDeleted -->
+        <test-method signature="deleteUsers()[pri:0, instance:ApiTestDELETE@7a3d45bd]" started-at="2020-10-29T10:01:23 CET" name="deleteUsers" finished-at="2020-10-29T10:01:24 CET" duration-ms="462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUsers -->
+      </class> <!-- ApiTestDELETE -->
+      <class name="ApiTestGET">
+        <test-method signature="getUserById()[pri:0, instance:ApiTestGET@371a67ec]" started-at="2020-10-29T10:01:03 CET" name="getUserById" finished-at="2020-10-29T10:01:04 CET" duration-ms="1604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserById -->
+        <test-method signature="getUsers()[pri:0, instance:ApiTestGET@371a67ec]" started-at="2020-10-29T10:01:04 CET" name="getUsers" finished-at="2020-10-29T10:01:04 CET" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUsers -->
+        <test-method signature="getUsersPageOne()[pri:0, instance:ApiTestGET@371a67ec]" started-at="2020-10-29T10:01:04 CET" name="getUsersPageOne" finished-at="2020-10-29T10:01:04 CET" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUsersPageOne -->
+      </class> <!-- ApiTestGET -->
+      <class name="ApiTestGETDelay">
+        <test-method signature="delayFive()[pri:0, instance:ApiTestGETDelay@50d0686]" started-at="2020-10-29T10:01:05 CET" name="delayFive" finished-at="2020-10-29T10:01:10 CET" duration-ms="5242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delayFive -->
+        <test-method signature="delayUnderFive()[pri:0, instance:ApiTestGETDelay@50d0686]" started-at="2020-10-29T10:01:10 CET" name="delayUnderFive" finished-at="2020-10-29T10:01:14 CET" duration-ms="3226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delayUnderFive -->
+        <test-method signature="overFive()[pri:0, instance:ApiTestGETDelay@50d0686]" started-at="2020-10-29T10:01:14 CET" name="overFive" finished-at="2020-10-29T10:01:23 CET" duration-ms="9305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- overFive -->
+      </class> <!-- ApiTestGETDelay -->
+      <class name="ApiTestPOST">
+        <test-method signature="createUser()[pri:0, instance:ApiTestPOST@5ed828d]" started-at="2020-10-29T10:01:04 CET" name="createUser" finished-at="2020-10-29T10:01:05 CET" duration-ms="438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="createUserWithAnyParameter()[pri:0, instance:ApiTestPOST@5ed828d]" started-at="2020-10-29T10:01:05 CET" name="createUserWithAnyParameter" finished-at="2020-10-29T10:01:05 CET" duration-ms="223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserWithAnyParameter -->
+        <test-method signature="getNewUser()[pri:0, instance:ApiTestPOST@5ed828d]" started-at="2020-10-29T10:01:05 CET" name="getNewUser" finished-at="2020-10-29T10:01:05 CET" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getNewUser -->
+      </class> <!-- ApiTestPOST -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
